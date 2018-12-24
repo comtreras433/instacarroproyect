@@ -1,0 +1,103 @@
+body{
+  font-family: Open Sans;
+  background-color:#ebebeb;
+  padding: 0;
+  margin:0;
+}
+.navbar {
+  background-color:white;
+  height: 70px;
+}
+.container {
+  max-width:150vh;
+  margin: auto;
+}
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  justify-content: space-between;
+  align-items: center;
+}
+.LogoTipo{
+  width: 170px;
+}
+.logo img {
+  width: 170px;
+}
+.logo-phone {
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+}
+.phone {
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+
+}
+.phone img {
+  width: 65px;
+  padding-left:30px;
+  border-left: 2px solid #e4e4e4;
+}
+.phone span {
+  padding-left: 15px;
+
+}
+.user {
+  height: 63px;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 185px;
+  border:2px solid #e4e4e4;
+  justify-content: center;
+}
+.user img {
+  margin-top: 7px;
+}
+.userdata {
+  display: grid;
+  grid-template-columns: auto;
+}
+.userdata img {
+  margin: auto;
+}
+.view {
+  padding:35px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 25px;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .view {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 10px;
+  }
+  .phone,
+  .phone img,
+  .phone span,
+  .user,
+  .user img,
+  .userdata,
+  .userdata img {
+    display: none;
+
+  }
+  .grid {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: auto;
+    margin:auto;
+    padding: 0;
+  }
+  .logo img {
+  margin: auto;
+  }
+}

@@ -1,0 +1,157 @@
+body{
+  font-family: Open Sans;
+  background-color:#ebebeb;
+  padding: 0;
+  margin:0;
+}
+.navbar {
+  background-color:white;
+  height: 70px;
+}
+.container {
+  max-width:1100px;
+  min-width: 768px;
+  margin: auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 170px;
+}
+.logo img {
+  width: 170px;
+}
+.logo-phone {
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+}
+.phone {
+  padding-left: 45px;
+  display: flex;
+  align-items: center;
+
+}
+.phone img {
+  width: 30px;
+  padding-left:20px;
+  border-left: 2px solid #e4e4e4;
+}
+.phone span {
+  padding-left: 15px;
+
+}
+.user {
+  height: 68px;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 170px;
+  border:2px solid #e4e4e4;
+  justify-content: center;
+}
+.user img {
+  margin-top: 7px;
+}
+.userdata {
+  display: grid;
+  grid-template-columns: auto;
+}
+.userdata img {
+  margin: auto;
+}
+.content {
+  padding: 10px;
+}
+.viewer {
+  background-color: white;
+  width: 365px;
+  border-radius: 5px;
+  text-align: center;
+}
+.viewer .img img {
+   width: 100%;
+   height: 100%;
+   border-top-left-radius:5px;
+   border-top-right-radius:5px;
+}
+.viewer .img {
+  height: 245px;
+}
+.time {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px;
+}
+.time .hora strong,.time .oferta strong {
+  font-size: 22px;
+  color: #ff6d4a;
+  display: grid;
+  padding-top: 5px;
+}
+.time .oferta strong {
+  color:  #3eb871;
+}
+.hora strong {
+
+  border-right: 2px solid #e4e4e4;
+}
+
+.marca {
+  color: #323232;
+  border-top: 2px solid #e4e4e4;
+  padding: 10px;
+}
+.km {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 2px solid #e4e4e4;
+  padding:10px;
+}
+.caryear {
+  border-right: 2px solid #e4e4e4;
+
+}
+.button {
+  padding-top:12px;
+  border-top: 2px solid #e4e4e4;
+}
+.button button {
+  padding: 10px 28px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #3eb871;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+
+}
+.img{
+  position: relative;
+}
+.imglower{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 22px;
+  background-color: rgba(0,0,0,0.4);
+  width:100%;
+  color: white;
+}
+small {
+  font-size: 11px;
+}
+.view {
+  padding:35px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 25px;
+  justify-content: center;
+
+}
